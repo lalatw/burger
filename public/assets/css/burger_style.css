@@ -1,0 +1,13 @@
+body{
+    background-image: url("https://images.all-free-download.com/images/graphiclarge/defocus_green_abstract_background_6817039.jpg");
+    background-size: cover;
+    margin: auto;
+}
+
+h1{
+    color: rgba(189, 22, 44, 0.74);
+}
+
+h2{
+    color: rgba(70, 22, 180, 0.74);
+}

@@ -7,12 +7,14 @@ var orm = {
           if (err) {
             throw err;
           }
+          console.log("result: " + result);
           cb(result);
         });
     },
     
     insertBurger: function(name, cb){
-      connection.query(`INSERT INTO burgers (burger_name) VALUES ('${name}')`, function(error, result){
+      console.log(name);
+      connection.query("INSERT INTO burgers (burger_name) VALUES ('" + name[0].name + "')", function(error, result){
         if(error){
           console.log(error);
         }
