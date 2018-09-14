@@ -10,7 +10,6 @@ var burger = {
 
   //add burger
   create: function(vals, cb) {
-      console.log("modelcreate");
     orm.insertBurger(vals, function(res) {
       cb(res);
     });

@@ -1,13 +1,30 @@
 body{
-    background-image: url("https://images.all-free-download.com/images/graphiclarge/defocus_green_abstract_background_6817039.jpg");
+    background-image: url('https://image.freepik.com/free-vector/yellow-comic-zoom-lines-background_1017-15136.jpg');
     background-size: cover;
     margin: auto;
 }
 
 h1{
-    color: rgba(189, 22, 44, 0.74);
+    color: rgba(233, 10, 28, 0.527);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
 }
 
 h2{
     color: rgba(70, 22, 180, 0.74);
+}
+
+p{
+    color: purple;
+    font-weight: 500;
+}
+
+.cardcolor1{
+    background-color: rgb(206, 245, 179);
+    opacity: 0.8;
+}
+
+.cardcolor2{
+    background-color: rgb(241, 228, 167);
+    opacity: 0.8;
 }
